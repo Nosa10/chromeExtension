@@ -1,0 +1,9 @@
+.head{
+    display: flex; justify-Content: space-evenly; margin-top:20px;
+ align-items: center;
+    }
+@media screen and  (max-width: 576px) {
+    .head{
+        display: block;
+    }
+}

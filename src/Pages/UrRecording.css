@@ -1,0 +1,211 @@
+body{
+    overflow-x: hidden;
+}
+input {
+    width: 80%;
+    padding: 12px;
+    border-radius: 16px;
+    border: 0.5px;
+    background: linear-gradient(0deg, #E7E7ED, #E7E7ED),
+    linear-gradient(0deg, rgba(182, 179, 198, 0.2), rgba(182, 179, 198, 0.2));
+}
+img{
+    size: 50%;
+}
+button{
+    margin-left: -10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 8px;
+    gap: 8px;
+    background: #605C84;
+    color: white;
+    width: 50px;
+}
+
+select{
+    background: #CFCFCF;
+    width: 169px;
+    height: 39px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px;
+    margin-bottom: 40px;
+    
+}
+.h{
+font-family: Sora;
+font-size: 24px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
+.h5{
+    font-family: Sora;
+font-size: 20px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+}
+.h6{
+    font-family: Sora;
+font-size: 20px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: #08051E;
+}
+h3{
+    font-family: Sora;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+h6{
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #727272;
+}
+h5{
+    font-family: Sora;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #413C6D;
+}
+h2{
+    
+    font-family: Sora;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+
+}
+.transcript{
+    width: 576px;
+}
+.transcript-paragraph{
+    width: 570px; 
+    margin-left: 2%;
+    font-weight: 500;
+}
+.save{
+    text-align: center;
+    width:50%; 
+    margin: 0 auto;
+    margin-top: 10%
+}
+.save-button {
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    border-radius: 8px;
+    background: #120B48;
+}
+.dont{
+    margin-top: 10px;
+    font-family: Sora;
+font-size: 24px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: #7E7E7E;
+}
+a{
+    color: #120B48;
+    text-decoration: underline;
+}
+.footer{
+    background: #120B48;
+    padding: 2%;
+  }
+  .footer p {
+    font-Family: 'Work-Sans';
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF
+  }
+  .footer h1{
+    font-family: 'Sora';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+  }
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+@media (max-width:576px) {
+    body{
+        overflow-x: hidden;
+    }
+    button{
+        margin-left: -20%;
+    }
+    .transcript{
+        width: 90%;
+    }
+    .transcript-paragraph{
+        width: 80%;
+    }
+    .save{
+        width: 100%;
+    }
+    .save-button{
+        width: 20%;
+    }
+}
